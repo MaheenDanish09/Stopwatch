@@ -1,0 +1,44 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: cursive !important;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(138, 233, 235, 1) 0%, rgba(5, 16, 227, 1) 100%) !important;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#display {
+    font-size: 5em !important;
+}
+
+h1 {
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+#startBtn:hover {
+    cursor: pointer !important;
+    background-color: green !important;
+    transition: 0.5s ease !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+#pauseBtn:hover {
+    cursor: pointer !important;
+    background-color: yellow !important;
+    transition: 0.5s ease !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+#resetBtn:hover {
+    cursor: pointer !important;
+    background-color: red !important;
+    transition: 0.5s ease !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3) !important;
+}
